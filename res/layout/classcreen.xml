@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    <FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/parent">
+    
+ 
+<LinearLayout 
+    
+     android:layout_gravity="center"
+     android:background="@drawable/logo"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+    
+        </LinearLayout>
+       
+    
+    <Button 
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|left"
+    android:layout_margin="4dp"
+    android:textColor="#fff"
+    android:id="@+id/backbutton"
+    android:background="@drawable/back1"/>
+      </FrameLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--   <LinearLayout  -->
+<!--     android:layout_width="fill_parent" -->
+<!--     android:layout_height="wrap_content" -->
+<!--     android:gravity="center"> -->
+<!--     <LinearLayout  -->
+
+<!-- android:background="@drawable/logo" -->
+<!--     android:layout_width="wrap_content" -->
+<!--     android:layout_height="wrap_content"> -->
+    
+<!--         </LinearLayout> -->
+<!--         </LinearLayout>  -->
+    
+     <TextView 
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:textColor="#555555"
+                    android:gravity="center|left"
+                    android:textSize="24sp"
+                    android:padding="6dp"
+                    android:id="@+id/gymid"
+                    android:textStyle="bold"
+                    android:text="@string/gymid"
+                    android:background="@drawable/gymidbg"/> 
+                    
+     <TextView 
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:gravity="center"
+                    android:textSize="24sp"
+                    android:padding="6dp"
+                    android:textStyle="bold"
+                    android:textColor="#555555"
+                    android:text="@string/ci"/>
+   
+     
+      <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_weight="1" >
+     
+      
+   
+              
+              <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/contentbg"
+    android:layout_weight=".2"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp" >
+
+         <TextView
+             android:id="@+id/classname"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:background="@drawable/backborder"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="15dp"
+             android:gravity="center_vertical"
+             android:singleLine="true"
+           android:paddingLeft="10dp"/>
+  
+
+         <TextView
+             android:id="@+id/classtime"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:background="@drawable/backborder"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="10dp"
+             
+             android:singleLine="true"
+             android:gravity="center_vertical"
+
+              android:paddingLeft="10dp"/>
+
+             <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:layout_weight=".5">
+         <TextView
+             android:id="@+id/classdesc"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:ems="10"
+             android:background="@drawable/backborder"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+             android:paddingLeft="10dp"/>
+    </LinearLayout>
+            <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:layout_weight=".5">
+         <Button
+             android:id="@+id/joinclass"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Join Class"
+             android:background="@drawable/monthbutton"
+             android:layout_margin="4dp"
+             android:padding="6dp"
+             android:textColor="#ffffff" />
+         
+         </LinearLayout>
+         </LinearLayout>
+         
+     
+     <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_weight=".8"
+    android:gravity="bottom">
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center|right"
+    android:background="@drawable/footer" >
+         <Button
+             android:id="@+id/home"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@drawable/home"
+             android:layout_margin="4dp"
+             android:textColor="#fff" />
+</LinearLayout>
+         </LinearLayout>
+         </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+<FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/parent">
+    
+ 
+     <LinearLayout 
+    
+     android:layout_gravity="center"
+     android:background="@drawable/logo"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+    
+        </LinearLayout>
+       
+    
+    <Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|left"
+    android:layout_margin="4dp"
+    android:textColor="#fff"
+    android:id="@+id/backbutton"
+    android:background="@drawable/back1"/>
+      </FrameLayout>
+    
+    
+    <TextView 
+             
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:textColor="#555555"
+              android:gravity="center|left"
+              android:textSize="24sp"
+              android:padding="6dp"
+              android:id="@+id/gymid"
+              android:text="@string/gymid"
+              android:background="@drawable/gymidbg"/>
+      
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight=".55"
+    android:orientation="horizontal">
+
+    <ListView
+        android:id="@+id/imagelist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:layout_weight=".5"
+        android:src="@drawable/backsid" />
+    <LinearLayout 
+   android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:layout_weight=".5"
+    android:orientation="vertical">
+        <TextView
+        android:id="@+id/excname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/imagelist"
+        android:text="sample"
+        android:textStyle="bold" />
+        
+                <TextView
+        android:id="@+id/floornumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@id/imagelist"
+        android:layout_below="@id/excname"
+        android:text="Floor Number"
+        android:textStyle="bold"  />
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_alignBottom="@+id/imagelist"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Floor Map"
+                    android:gravity="bottom"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            </LinearLayout>
+                <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight=".45">
+                <WebView
+        android:id="@+id/floorplanview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:layout_below="@id/text"
+        android:text="Floor Number" />
+</LinearLayout>
+
+</LinearLayout>

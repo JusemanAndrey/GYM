@@ -1,0 +1,165 @@
+10-25 13:08:53.169: I/System.out(1529): link to disply   
+
+http://qrfitnesssolutions.com/qrFit/wp-content/uploads/exercises/
+1378892799_17_Desert.jpg
+
+
+10-29 17:14:29.192: I/System.out(900): to hit link is       
+
+
+http://www.qrfitnesssolutions.com/webservices/index.php?action=
+getRoutine&data={"userid":"38","auth":"3a677e010a494d3206ff77e304758987"}
+
+
+10-30 15:38:55.443: I/System.out(811): the link to hit        
+ 
+ http://www.qrfitnesssolutions.com/webservices/index.php?action=
+ getClass&data={"gymid":"60","auth":"4369f421d93f7d6300249390a3648fbc"}
+ 
+ 
+         	for (int i = 0; i < date1.size(); i++)
+		        	{
+						
+		        		try {
+		        			
+		        			System.out.println("" +
+		      "myFormat.format(fromUser.parse(day).equals(" +
+									"date1.get(i)))" +
+									myFormat.format(fromUser.parse(day).equals(
+											date1.get(i))));
+		        			
+		        			
+							if(myFormat.format(fromUser.parse(day).equals(
+									date1.get(i))) != null)
+							{
+								
+								Toast.makeText(Calendar_View.this,
+										"myFormat.format(fromUser.parse(day).equals(" +
+												"date1.get(i)))"
+									+	myFormat.format(fromUser.parse(day).equals(
+											date1.get(i)))		, Toast.LENGTH_LONG)
+											.show();
+							}
+							
+							else {
+								
+								
+								Toast.makeText(Calendar_View.this,
+										"No class for this date"	, 
+										Toast.LENGTH_LONG)
+											.show();
+
+							}
+						} catch (ParseException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+		        	
+
+		        	for (int i = 0; i < date1.size(); i++)
+		        	{
+						
+		        		try {
+		        			
+		        			System.out.println("" +
+		      "myFormat.format(fromUser.parse(day).equals(" +
+									"date2.get(i)))" +
+									myFormat.format(fromUser.parse(day).equals(
+											date2.get(i))));
+		        			
+		        			
+							if(myFormat.format(fromUser.parse(day).equals(
+									date2.get(i))) != null)
+							{
+								
+								Toast.makeText(Calendar_View.this,
+										"myFormat.format(fromUser.parse(day).equals(" +
+												"date2.get(i)))"
+									+	myFormat.format(fromUser.parse(day).equals(
+											date2.get(i)))		, Toast.LENGTH_LONG)
+											.show();
+							}
+							
+							else {
+								
+								
+								Toast.makeText(Calendar_View.this,
+										"No class for this date"	, 
+										Toast.LENGTH_LONG)
+											.show();
+
+							}
+						} catch (ParseException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+					}
+					
+					10-31 20:09:44.244: I/System.out(20109): th link to hit is    
+					       http://www.qrfitnesssolutions.com/webservices/index.php?3action=getMessages&data={"userid":"155","auth":"03bd0dc128df5eeb9e5ccd64ff716974"}
+					
+
+10-31 20:16:27.224: I/System.out(20448): complete link is     
+http://www.qrfitnesssolutions.com/webservices/index.php?action=getLogs&data={"userid":"155","auth":"a9dde42a472249e4298cb49b1bf2c184" , "execid":"17"}
+					
+					
+10-31 20:54:56.555: I/System.out(22550): all links are  ----          
+ http://www.qrfitnesssolutions.com/webservices/index.php?action=getClass&data={"gymid":"60","auth":"4369f421d93f7d6300249390a3648fbc"}
+					
+					
+					10-31 21:13:32.744: I/System.out(23574): to hit link is      
+					 http://www.qrfitnesssolutions.com/webservices/index.php?action=getLogs&data={"userid":"155","auth":"684fabe6fc3be86e3e0e94b5b66f4758"}
+					
+					
+11-01 12:01:49.573: I/System.out(379): to hit link is       
+http://www.qrfitnesssolutions.com/webservices/index.php?action=getLogs&data={"userid":"155","auth":"818683e8142407436fb3938bdf265eda"}
+					
+11-01 12:10:35.113: I/System.out(455): to hit link is       
+http://www.qrfitnesssolutions.com/webservices/index.php?action=getLogs&data={"userid":"155","auth":"d11b93eca0265bc029136c2f50d6eff2"}
+					
+	
+11-01 13:08:49.523: I/System.out(1072): all links are  ----           
+http://www.qrfitnesssolutions.com/webservices/index.php?action=getClass&data={"gymid":"60","auth":"4369f421d93f7d6300249390a3648fbc"}
+					
+					
+					
+					
+11-09 12:24:33.814: I/System.out(694): Log in is   is            
+   http://www.qrfitnesssolutions.com/webservices/index.php?action=checklogin&data={"username":"iphone15","pass":"iphone15","gymmemberid":"135"}
+	
+	
+11-09 13:12:06.773: I/System.out(1042): all links are  ---- 
+http://www.qrfitnesssolutions.com/webservices/index.php?action=getClass&data={"gymid":"135","auth":"d15aae708f9b4c968a2b16978a9a4726"}
+					
+					
+11-09 13:15:54.933: I/System.out(1042): to hit link is       
+http://www.qrfitnesssolutions.com/webservices/index.php?action=getRoutine&data={"gymid":"70","auth":"d15aae708f9b4c968a2b16978a9a4726"}
+					
+11-09 13:23:43.124: I/System.out(1196): to hit link is       
+http://www.qrfitnesssolutions.com/webservices/index.php?action=getLogs&data={"userid":"38","auth":"3a677e010a494d3206ff77e304758987"}
+					
+					
+					
+	11-09 13:43:03.304: I/System.out(1458): link for parsing is   
+http://www.qrfitnesssolutions.com/webservices/index.php?action=registeruser&data={"username":"newuser1" , "email":"avim@deft.and" , "pass":"deft" , "deviceid":"7767abab4fe1526c" , "gymid":"7" , "gymmemberid":"800"}
+					
+					
+http://www.qrfitnesssolutions.com/webservices/index.php?action=registeruser&data={%22username%22%20:%20%22dj%22%20,%20%22email%22%20:%20%22dj@xyz.abc%22,%22pass%22%20:%20%22test%22,%20%22deviceid%22%20:%20%22device%22,%22gymid%22%20:%20%2266%22,%22gymmemberid%22:%20%221234%22}					
+					
+					
+	11-09 15:00:48.373: I/System.out(1458): link for parsing is    
+	http://www.qrfitnesssolutions.com/webservices/index.php?action=registeruser&data={"username":"desk" , "email":"desk@desk.desk" , "pass":"deft" , "deviceid":"7767abab4fe1526c" , "gymid":"16" , "gymmemberid":"2000"}
+					
+	
+	
+	11-09 17:09:00.144: I/System.out(1847): to hit link is       
+
+http://www.qrfitnesssolutions.com/webservices/index.php?action=getWorkOut&data={"gymid":"114","auth":"68e44a3d09be8b582e3d793195af894a"}
+	
+	
+	11-09 17:31:50.974: I/System.out(1897): floor plan is         
+	http://qrfitnesssolutions.com/qrFit/wp-content/uploads/2013/09/1380282204_66_r3.jpg
+	
+	
+					

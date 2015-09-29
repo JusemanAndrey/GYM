@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+      <TextView
+        android:id="@+id/counttv"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="1"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+    
+      <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+     <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:layout_below="@+id/level1" >
+    
+        
+    <TextView
+        android:id="@+id/datetV"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="3dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#81A7D4"
+        android:layout_weight=".5"
+        android:text="1" />
+    <TextView
+        android:id="@+id/enametV"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="6dp"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        android:textColor="#555555"
+        android:layout_weight=".5" 
+        android:text="1"/>
+  
+    
+        
+    </LinearLayout>
+    
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="2dp"
+    android:background="#ffffff"
+    android:id="@+id/level2"
+    android:layout_below="@id/level1"
+     >
+
+    
+    <TextView
+        android:id="@+id/sets"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="3dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#555555"
+        android:layout_weight=".3"
+        android:text="1" />
+
+
+    <TextView
+        android:id="@+id/reptV"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="3dp"
+         android:gravity="center"
+         android:textStyle="bold"
+        android:textColor="#555555"
+        android:layout_weight=".3"
+        android:text="1" />
+    
+        <TextView
+        android:id="@+id/intensity"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="3dp"
+        android:textStyle="bold"
+         android:gravity="center"
+        android:textColor="#555555"
+        android:layout_weight=".28"
+        android:text="1" />
+    
+</LinearLayout>
+</LinearLayout>
+       
+
+</LinearLayout>

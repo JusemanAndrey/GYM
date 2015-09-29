@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backsid" 
+    >
+<TextView 
+			android:id="@+id/date"
+		    android:layout_width="@dimen/menuChildSize"
+		    android:layout_height="@dimen/menuChildSize"
+		    android:textStyle="bold"
+		    android:gravity="center"
+		    android:textColor="@color/text_color"
+		    >
+</TextView>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="2dp">
+<ImageView
+		android:id="@+id/date_icon"
+	    android:layout_width="9dp"
+	    android:layout_height="9dp"
+		android:visibility="invisible"
+		android:contentDescription="@string/cal"/>
+<ImageView
+		android:id="@+id/date_icon2"
+	    android:layout_width="9dp"
+	    android:layout_height="9dp"
+		android:visibility="invisible"
+		android:contentDescription="@string/cal"/>
+</LinearLayout>
+</LinearLayout>

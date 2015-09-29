@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/excname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/excercisenamebg"
+        android:padding="4dp"
+        android:text="@string/error"
+        android:layout_margin="1dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/excinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setinfobutton"
+        android:padding="4dp"
+        android:textColor="#000000"/>
+
+</LinearLayout>

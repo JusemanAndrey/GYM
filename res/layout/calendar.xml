@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+    
+    
+    
+    <FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/parent">
+    
+ 
+        
+     
+    <LinearLayout 
+    
+     android:layout_gravity="center"
+     android:background="@drawable/logo"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+    
+        </LinearLayout>
+       
+    
+    <Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|left"
+    android:layout_margin="4dp"
+    android:textColor="#fff"
+    android:id="@+id/backbutton"
+    android:background="@drawable/back1"/>
+      </FrameLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--          <LinearLayout  -->
+<!--     android:layout_width="fill_parent" -->
+<!--     android:layout_height="wrap_content" -->
+<!--     android:gravity="center"> -->
+<!--     <LinearLayout  -->
+
+<!-- android:background="@drawable/logo" -->
+<!--     android:layout_width="wrap_content" -->
+<!--     android:layout_height="wrap_content"> -->
+    
+<!--         </LinearLayout> -->
+<!--         </LinearLayout>  -->
+    
+     <TextView 
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:textColor="#555555"
+                    android:gravity="center|left"
+                    android:textSize="24sp"
+                    android:padding="6dp"
+                    android:id="@+id/gymid"
+                    android:text="@string/gymid"
+                    android:background="@drawable/gymidbg"/>
+     
+     <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+              <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right|center"
+    android:id="@+id/footer"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/footer" >
+     
+                 <Button 
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/home"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/home"/> 
+                    </LinearLayout>
+                    
+                    <LinearLayout 
+	android:id="@+id/header"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_above="@id/footer"
+    android:orientation="vertical"
+    android:gravity="center|top">
+    
+   <TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textColor="#555555"
+    android:layout_margin="6dp"
+    android:textStyle="bold"
+    android:text="CLASS SCHEDULE"
+    android:textSize="20sp"
+    android:layout_marginTop="10dp"
+    />
+   
+            <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">  
+            <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/contentbg">
+            
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:orientation="horizontal"
+    >
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="right"
+    android:layout_weight=".9">
+<TextView  
+	android:id="@+id/previous" 
+    android:layout_height="@dimen/menuChildSize1"
+    android:layout_width="fill_parent"
+    android:textSize="14sp"
+    android:gravity="center"
+    android:background="@drawable/left"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:clickable="true"  />
+</LinearLayout>
+
+<TextView  
+	android:id="@+id/title" 
+    android:layout_height="@dimen/menuChildSize1"
+    android:layout_width="fill_parent"
+    android:padding="5dp"
+    android:layout_weight=".3"
+    android:paddingLeft="5dp"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:background="@drawable/backtop"
+    android:textColor="@color/white"
+     android:gravity="center|bottom"
+     android:text="NOVEMBER"/>
+                                         
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight=".9">
+<TextView  
+	android:id="@+id/next" 
+    android:layout_height="@dimen/menuChildSize1"
+    android:layout_width="fill_parent"
+    android:background="@drawable/right"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:gravity="center"
+    android:clickable="true"
+    />
+</LinearLayout>
+</LinearLayout>
+
+<GridView
+    
+    android:id="@+id/gridview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:horizontalSpacing="2dp"
+    android:numColumns="7"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="2dp" >
+</GridView>
+
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
+                    </RelativeLayout>
+      </LinearLayout>

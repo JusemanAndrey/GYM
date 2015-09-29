@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+       <FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/parent">
+    
+ 
+        
+     
+    <LinearLayout 
+    
+     android:layout_gravity="center"
+     android:background="@drawable/logo"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+    
+        </LinearLayout>
+       
+    
+    <Button 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|left"
+    android:layout_margin="4dp"
+    android:textColor="#fff"
+    android:id="@+id/backbutton"
+    android:background="@drawable/back1"/>
+      </FrameLayout>
+    <TextView 
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:textColor="#555555"
+                    android:gravity="center|left"
+                    android:textSize="20sp"
+                    android:padding="3dp"
+                    android:id="@+id/gymid"
+                    android:text="@string/gymid"
+                    android:background="@drawable/gymidbg"/>
+   
+      <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    
+               <ViewFlipper 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight=".15"
+    android:id="@+id/flipperid">
+    
+             <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/childone">       
+                   
+                <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="13dp"
+    android:layout_marginRight="13dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
+    
+                    
+              <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight=".35"
+    android:background="@drawable/contentbg">
+    <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/header">
+         
+
+    <TextView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text=""
+         android:gravity="center"
+         android:id="@+id/heading"
+         android:textSize="18sp"
+         android:layout_margin="6dp"
+         android:textColor="#555555"/>
+           <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:layout_margin="10dp" >  
+    
+               <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_weight=".75" >
+    
+                   
+    <ImageView
+         android:id="@+id/icon"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_margin="3dp"
+         android:background="@drawable/dumblesmall"
+         android:contentDescription="@string/dumb"/>
+</LinearLayout>
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="@string/weight"
+         android:gravity="center"
+         android:textColor="#555555"
+         android:layout_weight=".6" />
+
+     <EditText
+         android:id="@+id/editText1"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:ems="10"
+         android:inputType="number"
+         android:background="@drawable/text"
+         android:layout_weight=".4"
+         android:gravity="center"
+         android:singleLine="true"
+         android:imeOptions="actionNext"
+         android:padding="4dp" >
+
+         <requestFocus />
+     </EditText>
+     
+     </LinearLayout>
+     
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp" >
+     
+        <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_weight=".75" >
+  <ImageView
+         android:id="@+id/icon2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_margin="3dp"
+         android:background="@drawable/rep"
+         android:contentDescription="@string/dumb"/>
+</LinearLayout>
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="@string/rep"
+         android:gravity="center"
+         android:layout_weight=".6"
+         android:textColor="#555555" />
+
+     <EditText
+         android:id="@+id/editText2"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_weight=".4"
+         android:ems="10"
+         android:singleLine="true"
+         android:imeOptions="actionNext"
+         android:inputType="number"
+         android:background="@drawable/text"
+         android:gravity="center"
+         android:padding="4dp" >
+
+     </EditText>
+     </LinearLayout>
+     
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_margin="10dp" >
+      <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_weight=".75" >
+       <ImageView
+         android:id="@+id/icon3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_margin="3dp"
+         android:background="@drawable/intentsity"
+         android:contentDescription="@string/dumb"/>
+</LinearLayout>
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="@string/ints"
+         android:gravity="center"
+         android:layout_weight=".6"
+         android:textColor="#555555" />
+
+         <EditText
+         android:id="@+id/editText3"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_weight=".4"
+         android:ems="10"
+         android:gravity="center"
+         android:singleLine="true"
+        android:imeOptions="actionNext"
+         android:inputType="textPersonName"
+         android:background="@drawable/text">
+         </EditText>
+         
+         
+     </LinearLayout>
+         <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:layout_margin="10dp" >
+         
+             
+         <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_weight=".75" >
+       <ImageView
+         android:id="@+id/icon4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:layout_margin="3dp"
+         android:background="@drawable/seatheight"
+         android:contentDescription="@string/dumb"/>
+       </LinearLayout>
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:text="notes"
+         android:gravity="center"
+         android:layout_weight=".6"
+         android:textColor="#555555" />
+
+
+          <EditText
+         android:id="@+id/editText4"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:ems="10"
+         android:inputType="text"
+         android:background="@drawable/text"
+         android:layout_weight=".4"
+         android:singleLine="true"
+         android:gravity="center"
+         android:imeOptions="actionDone" >
+
+       
+     </EditText>
+     </LinearLayout>
+     
+             <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="right"
+    android:layout_margin="10dp" >
+          <Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/addset"
+    android:textColor="#fff"/>
+</LinearLayout>
+                
+              <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="2dp"
+    android:orientation="vertical"
+    
+     android:layout_gravity="top">
+   
+                <TableLayout 
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:padding="4dp"
+                     android:background="#ffffff"
+                    android:id="@+id/shedulelist"
+                    android:layout_weight=".5"
+                   
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="7dp">
+                    
+    <TableRow android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:padding="4dp"
+                    android:stretchColumns="*"
+                    >
+         
+            
+        
+    </TableRow>
+                  
+             </TableLayout>     
+                  
+    </LinearLayout>
+    
+</LinearLayout>
+</ScrollView>
+
+   
+    </LinearLayout>
+    
+           
+    
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/childtwo">   
+  
+        
+        
+        <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/contentbg">
+   
+                  
+                   <ListView
+        android:id="@+id/listexc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </LinearLayout>
+  
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/childthree">   
+      <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/contentbg">
+   
+               
+   <ListView
+        android:id="@+id/videolist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </LinearLayout>
+    </ViewFlipper>
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight=".85"
+    android:background="@drawable/footer"
+    android:gravity="center">
+               
+                 <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:layout_margin="6dp"
+    android:baselineAligned="false">
+    
+                      <Button 
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:id="@+id/home"
+                    android:background="@drawable/home_l"
+                    android:layout_weight=".5"/>
+      <Button 
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:id="@+id/direction"
+                    android:layout_weight=".5"
+                    android:background="@drawable/direction"/>
+      
+      <Button 
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:id="@+id/video"
+                    android:background="@drawable/video"
+                    android:layout_weight=".5"/>
+      
+     
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

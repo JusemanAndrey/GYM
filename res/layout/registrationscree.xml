@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+<FrameLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/parent">
+    
+ 
+        
+     
+    <LinearLayout 
+android:layout_gravity="center"
+android:background="@drawable/logo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+        </LinearLayout>
+       
+    
+    <Button 
+
+    android:text="@string/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center|left"
+    android:layout_margin="4dp"
+    android:textColor="#fff"
+    android:id="@+id/backbutton"
+    android:background="@drawable/backbutton"/>
+      </FrameLayout>
+        
+  <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    
+        <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center|top"
+    android:orientation="vertical">
+  <LinearLayout 
+    android:background="@drawable/contentbg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="20dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    
+  
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:gravity="center"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#000" />
+    <EditText
+        android:id="@+id/usernameeditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/un"
+        android:layout_margin="6dp"
+        android:inputType="textPersonName" 
+        android:gravity="center"
+        android:background="@drawable/text"
+        android:textColor="#000"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:imeOptions="actionNext">
+
+        <requestFocus />
+    </EditText>
+
+    
+        <TextView
+            
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="6dp"
+        android:textColor="#000" />
+        
+        
+    <EditText
+        android:id="@+id/emailideditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/eid"
+        android:inputType="textEmailAddress" 
+        android:layout_margin="6dp"
+        android:gravity="center"
+        android:background="@drawable/text"
+        android:textColor="#000"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:imeOptions="actionNext"/>
+    
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        
+        android:textColor="#000"
+        android:layout_marginLeft="6dp" />
+
+    <EditText
+        android:id="@+id/pwdeditText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/pwd"
+        android:gravity="center"
+        android:layout_margin="6dp"
+        android:inputType="textPassword"
+        android:background="@drawable/text"
+        android:textColor="#000"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:imeOptions="actionNext" />
+    
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        
+        android:gravity="center"
+        android:layout_marginLeft="6dp"
+        android:textColor="#000" />
+        
+        
+        
+    <EditText
+        android:id="@+id/pwdeditText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/rp"
+        android:gravity="center"
+        android:layout_margin="6dp"
+        android:textColor="#000"
+        android:inputType="textPassword"
+        android:background="@drawable/text"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:imeOptions="actionNext" />
+    
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        
+        android:gravity="center"
+        android:layout_marginLeft="6dp"
+        android:textColor="#000" />
+        
+        
+        
+    <EditText
+        android:id="@+id/gymid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/gid"
+        android:gravity="center"
+        android:layout_margin="6dp"
+        android:textColor="#000"
+        android:inputType="number"
+        android:background="@drawable/text"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:imeOptions="actionDone" />
+    
+<EditText
+        android:id="@+id/gymmid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/gmmid"
+        android:gravity="center"
+        android:layout_margin="6dp"
+        android:textColor="#000"
+        android:inputType="number"
+        android:background="@drawable/text"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:imeOptions="actionDone" />
+ 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/submitbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:textColor="#fff"
+            android:background="@drawable/monthbutton" />
+
+        <Button
+            android:id="@+id/cancelbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clear"
+            android:textColor="#fff"
+            android:background="@drawable/monthbutton"  />
+              </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

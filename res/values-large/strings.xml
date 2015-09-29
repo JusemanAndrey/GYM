@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mahwah Snap Fitness</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <color name="text_color">#31D1F1</color>
+	<color name="white">#ffffff</color>
+	<string name="open">Open</string>
+	
+	<string name="signin">Sign In</string>
+	<string name="clear">Clear</string>
+	<string name="fp">Forget Password ?</string>
+	<string name="signup">Sign Up</string>
+	<string name="cs">Class Schedule</string>
+	<string name="ms">Messages</string>
+	<string name="cg">Change Gym User</string>
+	<string name="ro">Routine</string>
+	<string name="gymid">GYM MEMBERSHIP ID :</string>
+	<string name="uname">User Name or User Id</string>
+	<string name="gidput">Gym Id</string>
+	<string name="pwd">Password</string>
+	<string name="cd">Click on date to see your workout</string>
+	<string name="home">Home</string>
+	<string name="back">Back</string>
+	<string name="wl">WORKOUT LOG</string>
+	<string name="ci"><b>CLASS INFORMATION</b></string>
+	<string name="ub">Upper Body</string>
+	<string name="lb">Lower Body</string>
+	<string name="fb">Fat Burning</string>
+	<string name="scan">SCAN EXCERCISE</string>
+	<string name="msg"><b>MESSAGES</b></string>
+	<string name="un">User Name</string>
+	<string name="eid">Email Id</string>
+	<string name="rp">Repeat Password</string>
+	<string name="submit">Submit</string>
+	<string name="cancel">Cancel</string>
+	<string name="eeid">Enter Your Email ID</string>
+	<string name="wlm">Weight lifting Machine</string>
+	<string name="cd1">To display images of various exercises </string>
+	<string name="cd2"> Image of splash screen </string>
+	<string name="scanid"> ENTER OR SCAN YOUR ID </string>
+	<string name="gt">></string>
+	<string name="cm">ChestPress Machine</string>
+	<string name="error">Error</string>
+	<string name="gid">Gym Id</string>
+	<string name="gmmid">Gym Membership Id</string>
+	<string name="as">Add Set</string>
+	<string name="weight">Weight</string>
+	<string name="rep">Repetition</string>
+	<string name="ints">Intensity</string>
+	<string name="cal">The image is displayed when a date from webservices
+	    matches a date in calendar</string>
+	<string name="dumb">The image is displayed to symbolize 
+	    weight</string>
+	<string name="ls">log set</string>
+	<string name="dir">Direction</string>
+	<string name="vid">Video</string>
+	<string name="username"><b>Username</b></string>
+	<string name="Gymid"><b>User Gym ID</b></string>
+	<string name="password"><b>Password</b></string>
+	<string name="email"><b>Email</b></string>
+	<string name="repeatepassword"><b>Repeat Password</b></string>
+	
+	
+</resources>
